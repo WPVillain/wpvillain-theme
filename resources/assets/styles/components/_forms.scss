@@ -1,0 +1,167 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+
+/********************************
+*
+* Contact Form 7 Styling
+*
+* *****************************/
+
+
+/***********basic************/
+
+/*Form width*/
+.wpcf7 {
+    text-align: left;
+    width: 100%;
+}
+
+/*Input Field widths*/
+.wpcf7-text, .wpcf7-textarea {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+}
+
+/*Input Field padding*/
+.wpcf7-text {
+
+	height: 50px;
+    padding-left: 10px;
+
+}
+.wpcf7-text:focus, .wpcf7-textarea:focus {
+    border-color: #129FEA;
+}
+
+/*Label Font*/
+.wpcf7-form p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Submit button Font*/
+.wpcf7-submit {
+    width: 100%;
+    font-size: 15px !important;
+    background: #4a97c2 !important;
+    color: #fff !important;
+    padding: 20px;
+}
+
+/*Submit button Hover*/
+.wpcf7-submit:hover {
+    background: #3b86b0 !important;
+}
+
+/*Response messages - Error & Success*/
+.wpcf7-response-output {
+    margin-bottom: 30px !important;
+}
+
+/***********borders************/
+
+/*Form border*/
+.wpcf7 {
+    padding: 20px 0px 0px 0px !important;
+}
+
+/*Input Field borders*/
+.wpcf7-text:focus, .wpcf7-textarea:focus {
+    border-color: #8F8F8F !important;
+}
+
+/*Text Area Padding*/
+.wpcf7-text, .wpcf7-textarea {
+    padding-left: 10px;
+}
+
+/*Submit button Background*/
+.wpcf7-submit {
+    background: #7E7E7E !important;
+    color: #fff !important;
+}
+
+/*Submit button Hover*/
+.wpcf7-submit:hover {
+    background: #5F5F5F !important;
+}
+
+/***********colors************/
+
+/*Submit button background & border*/
+.wpcf7-submit {
+    background-color: #1d2731 !important;
+    border: 2px solid #5A5050 !important;
+    color: #5A5050 !important;
+    font-weight: bold !important;
+}
+
+/*Submit button Hover styles*/
+.wpcf7-submit:hover {
+    background-color: rgba(29, 39, 49, 0.66) !important;    
+    border-color: #4CAF50 !important;
+    color: #4CAF50 !important;
+}
+
+/*Label Text color*/
+.wpcf7-form p {
+    color: #FFF;
+}
+
+.wpcf7-form label{
+	/*display: none;*/
+}
+
+/*Input Field Text color*/
+.wpcf7-text, .wpcf7-textarea {
+	color: #777;
+}
+
+/****background-images********/
+
+/*Form background*/
+.wpcf7 {
+    /*background-image: url(http://i.imgur.com/iAFPf0G.jpg);*/
+    background-color: rgba(255, 255, 255, 0.2);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Label Text color*/
+.wpcf7-form p {
+    /*display: none;*/
+    /*color: #000000;*/
+}
+
+/*Submit button background & border*/
+.wpcf7-submit {
+    border: 2px solid #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+
+/*Submit button Hover styles*/
+.wpcf7-submit:hover {
+    border-color: transparent !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    color: #FFFFFF !important;
+}
+
+/*Input Field border*/
+.wpcf7-text:focus, .wpcf7-textarea:focus {
+    border-color: #5A3D3D !important;
+}

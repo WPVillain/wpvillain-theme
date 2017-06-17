@@ -1,0 +1,102 @@
+/***************************************
+*
+* Splash Page Styles
+* 
+***************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700|Yanone+Kaffeesatz:200,300,400);
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.template-splash nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+    background-color: transparent;
+    padding-top: 0px;
+}
+
+.template-splash .navbar-toggleable-md > .container {
+    text-align: center;
+}
+
+.template-splash .navbar-light .navbar-nav .nav-link, 
+.template-splash .navbar-light .navbar-nav .banner .nav a, 
+.template-splash .banner .nav .navbar-light .navbar-nav a {
+    color: #548392;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 1.08rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.template-splash .navbar-toggleable-md > .container {
+    width: inherit;
+}
+
+/** Splash Page Headers */
+
+.template-splash h1, 
+.template-splash h2, 
+.template-splashh3, 
+.template-splash h4 {
+	font-family: 'Yanone Kaffeesatz';
+	font-weight: 200;
+	text-align: center;
+}
+
+.template-splash h1 {
+	font-size: 5.0rem;
+}
+@media (min-width:768px) {
+	.template-splash h1 {
+	font-size: 7.0rem;
+}
+}
+
+.template-splash h2 {
+	font-size: 3.5rem;
+}
+
+.template-splash h3 {
+	font-size: 1.08rem;
+	text-transform: uppercase;
+}
+.template-splash h3 a {
+    color: #548392;
+    text-decoration: none;
+    margin: 0 1.1rem 0 0;
+}
+
+.template-splash h4 {
+	font-size: 1.0rem;
+	word-spacing: 1.4rem;
+	text-transform: uppercase;
+}
+
+.template-splash p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 2.0rem;
+    font-size: 1.1rem;
+    font-family: Lato;
+    font-weight: 200;
+}
+
+.template-splash .links {
+	text-align: center;
+}
+.template-splash .links a {
+	font-size: 1.08rem;
+	text-transform: uppercase;
+	color: #548392;
+	text-decoration: none;
+	font-family: 'Yanone Kaffeesatz';
+	font-weight: 200;
+	margin: 0 1.1rem 0 0;
+
+}
